@@ -55,7 +55,7 @@ If you are interested in helping build this ecosystem, feel free to open a PR or
 
 ## 🚀 Access
 
-- **Web:** [razorbill-website.vercel.app](https://alcodist-hub.vercel.app/)
+- **Web:** [alcodist-hub.vercel.app](https://alcodist-hub.vercel.app/)
 
 ---
 
