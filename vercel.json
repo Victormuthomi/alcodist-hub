@@ -12,6 +12,10 @@
       "dest": "/assets/$1"
     },
     {
+      "src": "/api/v1/analytics/(.*)",
+      "dest": "https://va.vercel-scripts.com/$1"
+    },
+    {
       "src": "/(.*)",
       "dest": "/index.html"
     }

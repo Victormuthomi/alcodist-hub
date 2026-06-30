@@ -8,4 +8,17 @@ export default defineConfig({
   define: {
     global: "window", // Polyfill 'global' for Draft.js
   },
+  build: {
+    rollupOptions: {
+      output: {
+        manualChunks(id) {
+          // If the file comes from node_modules, bundle it into 'vendor'
+          if (id.includes("node_modules")) {
+            return "vendor";
+          }
+        },
+      },
+    },
+    chunkSizeWarningLimit: 1000,
+  },
 });

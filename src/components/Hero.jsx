@@ -166,17 +166,6 @@ export default function Hero() {
           >
             Explore Platform
           </Link>
-
-          <a
-            href="https://razorsports-backend.vercel.app/razorbill.apk"
-            className="group flex items-center justify-center gap-2.5 font-mono text-[10px] text-zinc-500 hover:text-zinc-300 transition-colors uppercase tracking-widest w-full sm:w-auto"
-          >
-            <Download
-              size={13}
-              className="group-hover:animate-bounce text-emerald-400"
-            />
-            Download Android App
-          </a>
         </div>
       </div>
     </section>

@@ -12,32 +12,32 @@ import Layout from "./components/Layout";
 import HomePage from "./pages/Homepage";
 
 // Matches
-import Matches from "./pages/Matches";
-import MatchDetails from "./pages/MatchDetails";
+import Matches from "./pages/sports/Matches";
+import MatchDetails from "./pages/sports/MatchDetails";
 
 // Results
-import ResultsPage from "./pages/ResultsPage";
+import ResultsPage from "./pages/sports/ResultsPage";
 
 // Movies
-import Movies from "./pages/Movies";
-import MoviesHome from "./pages/MoviesHome";
-import MovieDetails from "./pages/MovieDetails";
-import Watchlist from "./pages/Watchlist";
+import Movies from "./pages/movies/Movies";
+import MoviesHome from "./pages/movies/MoviesHome";
+import MovieDetails from "./pages/movies/MovieDetails";
+import Watchlist from "./pages/movies/Watchlist";
 
 // Alcodist Hub
 import AlcodistHub from "./pages/AlcodistHub";
 
 //blog
-import RazorBlogsLanding from "./pages/RazorBlogsLanding";
-import BlogDetails from "./pages/BlogDetails";
+import RazorBlogsLanding from "./pages/blogs/RazorBlogsLanding";
+import BlogDetails from "./pages/blogs/BlogDetails";
 // Author Auth
-import AuthorLogin from "./pages/AuthorLogin";
-import AuthorRegister from "./pages/AuthorRegister";
-import AuthorProfileEdit from "./pages/AuthorProfileEdit";
-import AuthorDashboard from "./pages/AuthorDashboard";
-import NewBlog from "./pages/NewBlog";
-import EditBlog from "./pages/EditBlog";
-import AuthorProfile from "./pages/AuthorProfile";
+import AuthorLogin from "./pages/blogs/AuthorLogin";
+import AuthorRegister from "./pages/blogs/AuthorRegister";
+import AuthorProfileEdit from "./pages/blogs/AuthorProfileEdit";
+import AuthorDashboard from "./pages/blogs/AuthorDashboard";
+import NewBlog from "./pages/blogs/NewBlog";
+import EditBlog from "./pages/blogs/EditBlog";
+import AuthorProfile from "./pages/blogs/AuthorProfile";
 
 // Not Found
 import NotFound from "./pages/NotFound";
