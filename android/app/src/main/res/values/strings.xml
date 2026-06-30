@@ -1,0 +1,7 @@
+<?xml version='1.0' encoding='utf-8'?>
+<resources>
+    <string name="app_name">razorbill</string>
+    <string name="title_activity_main">razorbill</string>
+    <string name="package_name">com.razorbill.website</string>
+    <string name="custom_url_scheme">com.razorbill.website</string>
+</resources>
